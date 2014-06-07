@@ -3,6 +3,13 @@ package com.stefensharkey.cah;
 import java.net.Socket;
 import java.util.ArrayList;
 
+import com.stefensharkey.cah.card.BlackCard;
+import com.stefensharkey.cah.card.BlackDeck;
+import com.stefensharkey.cah.card.WhiteCard;
+import com.stefensharkey.cah.card.WhiteDeck;
+import com.stefensharkey.cah.player.Player;
+import com.stefensharkey.cah.server.Server;
+
 public class Game
 {
 	private Server server;

@@ -1,4 +1,4 @@
-package com.stefensharkey.cah;
+package com.stefensharkey.cah.card;
 
 public class WhiteCard
 {

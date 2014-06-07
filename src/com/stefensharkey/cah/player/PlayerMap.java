@@ -1,4 +1,4 @@
-package com.stefensharkey.cah;
+package com.stefensharkey.cah.player;
 
 import java.util.LinkedHashMap;
 import java.util.Map;

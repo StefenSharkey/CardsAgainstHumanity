@@ -1,4 +1,4 @@
-package com.stefensharkey.cah;
+package com.stefensharkey.cah.card;
 
 import java.io.IOException;
 import java.util.ArrayList;

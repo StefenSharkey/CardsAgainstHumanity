@@ -1,18 +1,19 @@
-package com.stefensharkey.cah;
+package com.stefensharkey.cah.server;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.InterruptedIOException;
 import java.io.PrintWriter;
-import java.net.InetAddress;
-import java.net.NetworkInterface;
 import java.net.ServerSocket;
 import java.net.Socket;
 import java.net.UnknownHostException;
 import java.util.ArrayList;
-import java.util.Enumeration;
 import java.util.Map;
+
+import com.stefensharkey.cah.Game;
+import com.stefensharkey.cah.player.Player;
+import com.stefensharkey.cah.player.PlayerMap;
 
 public class Server
 {

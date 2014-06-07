@@ -1,4 +1,4 @@
-package com.stefensharkey.cah;
+package com.stefensharkey.cah.client;
 
 import java.awt.BorderLayout;
 import java.awt.Dimension;
@@ -29,6 +29,9 @@ import javax.swing.JTextField;
 import javax.swing.ListSelectionModel;
 import javax.swing.UIManager;
 import javax.swing.UnsupportedLookAndFeelException;
+
+import com.stefensharkey.cah.card.WhiteCard;
+import com.stefensharkey.cah.player.Player;
 
 public class Client
 {

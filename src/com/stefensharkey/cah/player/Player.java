@@ -1,6 +1,10 @@
-package com.stefensharkey.cah;
+package com.stefensharkey.cah.player;
 
 import java.util.ArrayList;
+
+import com.stefensharkey.cah.card.BlackCard;
+import com.stefensharkey.cah.card.WhiteCard;
+import com.stefensharkey.cah.card.WhiteDeck;
 
 public class Player
 {
