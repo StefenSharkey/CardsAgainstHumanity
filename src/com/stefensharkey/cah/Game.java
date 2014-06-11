@@ -113,8 +113,7 @@ public class Game
 	{
 		BlackCard tmp = blackDeck.getCard();
 		spots = tmp.getSpots();
-		server.printToClient("The Black Card is:");
-		server.printToClient(tmp.toString());
+		server.printToClient("The Black Card is: " + tmp.toString());
 		server.printToClient();
 		return tmp;
 	}
