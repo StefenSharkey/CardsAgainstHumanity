@@ -54,7 +54,7 @@ public class Server
 				
 				System.out.println("Received from Client: " + lineRead);
 				
-				playerList.put(new Player(lineRead, 10), socket);
+				playerList.put(new Player(lineRead, 10, socket), socket);
 				
 				printToClient("Welcome, " + lineRead + "!", socket);
 				printToClient("Your IP: " + socket.getInetAddress().toString().substring(1), socket);

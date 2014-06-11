@@ -43,7 +43,6 @@ import com.stefensharkey.cah.player.Player;
 
 public class Client extends JFrame
 {
-//	private String serverUrl = "67.246.253.66";
 	private String serverUrl = "";
 	private String name;
 	
@@ -63,8 +62,6 @@ public class Client extends JFrame
 	private JPanel bottomPanel;
 	private JPanel bottomContainer;
 	private JPanel centerPanel;
-	
-	private static final Dimension CARD_DIMENSIONS = new Dimension(70, 134);
 	
 	private Player[] players = new Player[25];
 	
@@ -147,11 +144,11 @@ public class Client extends JFrame
 		bottomPanel.setLayout(new BoxLayout(bottomPanel, BoxLayout.Y_AXIS));
 		bottomPanel.add(new JSeparator(JSeparator.HORIZONTAL));
 		
-		bottomContainer = new JPanel();
-		bottomContainer.setLayout(new GridLayout());
-		bottomContainer.add(createCardGrid(2, 5));
+//		bottomContainer = new JPanel();
+//		bottomContainer.setLayout(new GridLayout());
+//		bottomContainer.add(createCardGrid(2, 5));
 		
-		bottomPanel.add(bottomContainer);
+//		bottomPanel.add(bottomContainer);
 		
 		centerPanel = new JPanel();
 		getContentPane().add(centerPanel, BorderLayout.CENTER);
@@ -223,6 +220,19 @@ public class Client extends JFrame
 			for(int y = 0; y < gridLayout.getRows(); y++)
 				panel.add(createWhiteCard(new WhiteCard("White Card " + ((x*gridLayout.getColumns())+(y)))));
 		return panel;
+	}
+	
+	public void addCenterCards(JPanel panel)
+	{
+		bottomContainer = new JPanel();
+		bottomContainer.setLayout(new GridLayout());
+		bottomContainer.add(createCardGrid(2, 5));
+		panel.add(bottomContainer);
+	}
+	
+	public void updateBottomCard(WhiteCard whiteCard)
+	{
+		
 	}
 	
 	public JLabel setClientPlayer(String text)
@@ -321,13 +331,9 @@ public class Client extends JFrame
 
 					System.out.println("Connected.");
 		
-					InputStreamReader inputStreamReader = new InputStreamReader(socket.getInputStream());
-					BufferedReader bufferedReader = new BufferedReader(inputStreamReader);
-		
 					scanner = new Scanner(System.in);
 					
 					printWriter = new PrintWriter(socket.getOutputStream(),	true);
-					String lineRead = bufferedReader.readLine();
 					
 					String name = JOptionPane.showInputDialog(jFrame, "Please enter your name:");
 					
@@ -338,7 +344,6 @@ public class Client extends JFrame
 					ClientWatchdog clientWatchdog = new ClientWatchdog(socket);
 					Thread thread = new Thread(clientWatchdog);
 					thread.start();
-
 				}
 			} catch (UnknownHostException e)
 			{

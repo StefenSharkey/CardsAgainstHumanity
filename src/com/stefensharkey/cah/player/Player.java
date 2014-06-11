@@ -1,10 +1,14 @@
 package com.stefensharkey.cah.player;
 
+import java.io.IOException;
+import java.io.PrintWriter;
+import java.net.Socket;
 import java.util.ArrayList;
 
 import com.stefensharkey.cah.card.BlackCard;
 import com.stefensharkey.cah.card.WhiteCard;
 import com.stefensharkey.cah.card.WhiteDeck;
+import com.stefensharkey.cah.server.Server;
 
 public class Player
 {
@@ -15,6 +19,14 @@ public class Player
 	
 	private String name;
 	
+	private Socket socket;
+	
+	public Player(String name, int cards, Socket socket)
+	{
+		this(name, cards);
+		this.socket = socket;
+	}
+	
 	public Player(String name, int cards)
 	{
 		this.name = name;
@@ -24,16 +36,32 @@ public class Player
 		score = 0;
 	}
 	
-	public void addCards(int num)
+	public void addCards(int num, Socket socket)
 	{
+		Server server = new Server();
+		ArrayList<WhiteCard> tmp = new ArrayList<>();
 		for(int x = 0; x < num; x++)
-			hand.add(new WhiteDeck().getCard());
+			tmp.add(new WhiteDeck().getCard());
+		hand.addAll(tmp);
+		server.printToClient("You've gained the cards: " + tmp, socket);
 	}
 	
-	public void addCards(ArrayList<WhiteCard> whiteCards)
+	public void addCards(int num)
 	{
-		for(WhiteCard whiteCard : whiteCards)
-			hand.add(whiteCard);
+		Server server = new Server();
+		ArrayList<WhiteCard> tmp = new ArrayList<>();
+		for(int x = 0; x < num; x++)
+			tmp.add(new WhiteDeck().getCard());
+		hand.addAll(tmp);
+		server.printToClient("You've gained the cards: " + tmp);
+	}
+	
+	public ArrayList<WhiteCard> addCards(ArrayList<WhiteCard> whiteCards)
+	{
+		ArrayList<WhiteCard> tmp = new ArrayList<>();
+		tmp.addAll(whiteCards);
+		hand.addAll(tmp);
+		return tmp;
 	}
 	
 	public void addCard(WhiteCard whiteCard)

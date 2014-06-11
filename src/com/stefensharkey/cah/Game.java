@@ -50,7 +50,7 @@ public class Game
 			if(x != czar)
 			{
 				playedCards.add(selectCard(Server.playerList.getEntry(x).getKey(), Server.playerList.getEntry(x).getValue()));
-				Server.playerList.getEntry(x).getKey().addCards(spots);
+				Server.playerList.getEntry(x).getKey().addCards(spots, Server.playerList.getEntry(x).getValue());
 			}
 		
 		for(int x = 0; x < playedCards.size(); x++)
