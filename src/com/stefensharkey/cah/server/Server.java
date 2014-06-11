@@ -168,9 +168,6 @@ public class Server
 		{
 			printWriter = new PrintWriter(socket.getOutputStream(), true);
 			printWriter.println(text);
-//			System.out.println(socket.));
-//			if(socket.getLocalAddress().toString().substring(0, socket.getLocalAddress().toString().lastIndexOf("."+1)).equals(InetAddress.getLocalHost().toString().substring(0, socket.getLocalAddress().toString().lastIndexOf("."+1))))
-//				System.out.println(socket.getLocalAddress());
 			System.out.println("To " + socket.getInetAddress().toString().substring(1) + ":" + socket.getPort() + ": " + text);
 		} catch(IOException e)
 		{

@@ -1,56 +1,70 @@
 package com.stefensharkey.cah.player;
 
-import java.io.IOException;
-import java.io.PrintWriter;
 import java.net.Socket;
 import java.util.ArrayList;
 
+import com.stefensharkey.cah.IPlayer;
 import com.stefensharkey.cah.card.BlackCard;
 import com.stefensharkey.cah.card.WhiteCard;
 import com.stefensharkey.cah.card.WhiteDeck;
 import com.stefensharkey.cah.server.Server;
 
-public class Player
+public class Player implements IPlayer
 {
-	private ArrayList<WhiteCard> hand = new ArrayList<>();
-	private ArrayList<BlackCard> wonCards = new ArrayList<>();
+	private ArrayList<WhiteCard> hand; 
+	private ArrayList<BlackCard> wonCards;
 	
 	private int score;
 	
 	private String name;
 	
+	private Server server;
 	private Socket socket;
+	
+	private static final int CARD_NUM = 10;
 	
 	public Player(String name, int cards, Socket socket)
 	{
 		this(name, cards);
 		this.socket = socket;
+		server = new Server();
 	}
 	
 	public Player(String name, int cards)
 	{
 		this.name = name;
 		
-		addCards(cards);
-		
 		score = 0;
+		
+		hand = new ArrayList<>();
+		wonCards = new ArrayList<>();
 	}
 	
-	public void addCards(int num, Socket socket)
+	public void addCards(Player player)
 	{
 		Server server = new Server();
 		ArrayList<WhiteCard> tmp = new ArrayList<>();
-		for(int x = 0; x < num; x++)
+		for(int x = getHand().size(); x < CARD_NUM; x++)
+			tmp.add(new WhiteDeck().getCard());
+		hand.addAll(tmp);
+		server.printToClient("You've gained the cards: " + tmp, player);
+	}
+	
+	public void addCards(Socket socket)
+	{
+		Server server = new Server();
+		ArrayList<WhiteCard> tmp = new ArrayList<>();
+		for(int x = getHand().size(); x < CARD_NUM; x++)
 			tmp.add(new WhiteDeck().getCard());
 		hand.addAll(tmp);
 		server.printToClient("You've gained the cards: " + tmp, socket);
 	}
 	
-	public void addCards(int num)
+	public void addCards()
 	{
 		Server server = new Server();
 		ArrayList<WhiteCard> tmp = new ArrayList<>();
-		for(int x = 0; x < num; x++)
+		for(int x = getHand().size(); x < CARD_NUM; x++)
 			tmp.add(new WhiteDeck().getCard());
 		hand.addAll(tmp);
 		server.printToClient("You've gained the cards: " + tmp);
@@ -64,19 +78,52 @@ public class Player
 		return tmp;
 	}
 	
+	public void addCard(WhiteCard whiteCard, Socket socket)
+	{
+		hand.add(whiteCard);
+		server.printToClient(whiteCard.toString(), socket);
+	}
+	
 	public void addCard(WhiteCard whiteCard)
 	{
 		hand.add(whiteCard);
 	}
 	
-	public void addScore()
+	public void incrementScore(Player player)
+	{
+		score++;
+		server.printToClient("Your score: " + score, player);
+	}
+	
+	public void incrementScore(Socket socket)
+	{
+		score++;
+		server.printToClient("Your score: " + score, socket);
+	}
+	
+	public void incrementScore()
 	{
 		score++;
 	}
 	
-	public void addWonCard(BlackCard blackCard)
+	public BlackCard addWonCard(BlackCard blackCard, Player player)
 	{
 		wonCards.add(blackCard);
+		server.printToClient("You've won the black card: " + blackCard, player);
+		return blackCard;
+	}
+	
+	public BlackCard addWonCard(BlackCard blackCard, Socket socket)
+	{
+		wonCards.add(blackCard);
+		server.printToClient("You've won the black card: " + blackCard, socket);
+		return blackCard;
+	}
+	
+	public BlackCard addWonCard(BlackCard blackCard)
+	{
+		wonCards.add(blackCard);
+		return blackCard;
 	}
 	
 	public ArrayList<BlackCard> getWonCards()

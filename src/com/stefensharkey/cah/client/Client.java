@@ -119,7 +119,6 @@ public class Client extends JFrame
 		jList = new JList<>();
 		jList.setSelectionMode(ListSelectionModel.SINGLE_SELECTION);
 		
-		
 		try
 		{
 			UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName());
@@ -149,6 +148,7 @@ public class Client extends JFrame
 //		bottomContainer.add(createCardGrid(2, 5));
 		
 //		bottomPanel.add(bottomContainer);
+		updateBottomCard(bottomPanel, 2, 5);
 		
 		centerPanel = new JPanel();
 		getContentPane().add(centerPanel, BorderLayout.CENTER);
@@ -218,11 +218,11 @@ public class Client extends JFrame
 		panel.setLayout(gridLayout);
 		for(int x = 0; x < gridLayout.getColumns(); x++)
 			for(int y = 0; y < gridLayout.getRows(); y++)
-				panel.add(createWhiteCard(new WhiteCard("White Card " + ((x*gridLayout.getColumns())+(y)))));
+				panel.add(createWhiteCard(new WhiteCard("White Card " + (x*gridLayout.getColumns()+y))));
 		return panel;
 	}
 	
-	public void addCenterCards(JPanel panel)
+	public void addCenterCards(JPanel panel, int height, int width)
 	{
 		bottomContainer = new JPanel();
 		bottomContainer.setLayout(new GridLayout());
@@ -230,9 +230,12 @@ public class Client extends JFrame
 		panel.add(bottomContainer);
 	}
 	
-	public void updateBottomCard(WhiteCard whiteCard)
+	public void updateBottomCard(JPanel panel, int height, int width)
 	{
-		
+		bottomContainer = new JPanel();
+		bottomContainer.setLayout(new GridLayout());
+		bottomContainer.add(createCardGrid(height, width));
+		panel.add(bottomContainer);
 	}
 	
 	public JLabel setClientPlayer(String text)
@@ -243,6 +246,11 @@ public class Client extends JFrame
 		attributes.put(TextAttribute.UNDERLINE, TextAttribute.UNDERLINE_ON);
 		label.setFont(font.deriveFont(attributes));
 		return label;
+	}
+
+	public JFrame getInstance()
+	{
+		return this;
 	}
 	
 	class ClientWatchdog implements Runnable
@@ -288,6 +296,14 @@ public class Client extends JFrame
 								tmp.add(new WhiteCard(string));
 							
 							player.addCards(tmp);
+							break;
+						case "Select which card you would like to play.":
+							System.out.println(lineRead);
+							JOptionPane.showMessageDialog(getInstance(), lineRead);
+							break;
+						case "Select which cards you would like to play.":
+							System.out.println(lineRead);
+							JOptionPane.showMessageDialog(getInstance(), lineRead);
 							break;
 						default:
 							System.out.println(lineRead);
