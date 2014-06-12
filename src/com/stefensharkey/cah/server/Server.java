@@ -58,6 +58,9 @@ public class Server
 				
 				printToClient("Welcome, " + lineRead + "!", socket);
 				printToClient("Your IP: " + socket.getInetAddress().toString().substring(1), socket);
+				
+//				ServerWatchdog serverWatchdog = new ServerWatchdog(playerList.getEntry(x).getKey(), socket);
+//				serverWatchdog.start();
 			}
 			
 			printWriter = new PrintWriter(socket.getOutputStream(),	true);
@@ -181,6 +184,7 @@ public class Server
 		{
 			inputStreamReader = new InputStreamReader(socket.getInputStream());
 			bufferedReader = new BufferedReader(inputStreamReader);
+			System.out.println("Listening for incoming message...");
 			if((lineRead = bufferedReader.readLine()) != null)
 				if(lineRead.equalsIgnoreCase("stop"))
 				{
@@ -192,6 +196,7 @@ public class Server
 					System.out.println("From " + player.getName() + ": " + lineRead);
 					return lineRead;
 				}
+			System.out.println(lineRead);
 		} catch(IOException e)
 		{
 			e.printStackTrace();
@@ -199,4 +204,45 @@ public class Server
 		System.out.println("waitForClient();");
 		return lineRead;
 	}
+	
+//	class ServerWatchdog extends Thread
+//	{
+//		private Player player = null;
+//		private Socket socket = null;
+//		private InputStreamReader inputStreamReader = null;
+//		private BufferedReader bufferedReader = null;
+//		
+//		private String lineRead = "";
+//		
+//		public ServerWatchdog(Player player, Socket socket)
+//		{
+//			this.player = player;
+//			this.socket = socket;
+//		}
+//		
+//		public void run()
+//		{
+//			try
+//			{
+//				inputStreamReader = new InputStreamReader(socket.getInputStream());
+//				bufferedReader = new BufferedReader(inputStreamReader);
+//				System.out.println("Listening for incoming message...");
+//				System.out.println(lineRead);
+//				while((lineRead = bufferedReader.readLine()) != null)
+//				{
+//					System.out.print("From " + player.getName() + ": ");
+//					switch(lineRead)
+//					{
+//						default:
+//							System.out.println(lineRead);
+//							break;
+//					}
+//				}
+//				System.out.println(lineRead);
+//			} catch(IOException e)
+//			{
+//				e.printStackTrace();
+//			}
+//		}
+//	}
 }

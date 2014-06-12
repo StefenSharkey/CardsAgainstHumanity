@@ -8,6 +8,8 @@ import java.awt.GridBagConstraints;
 import java.awt.GridLayout;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.awt.event.MouseAdapter;
+import java.awt.event.MouseEvent;
 import java.awt.font.TextAttribute;
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -16,7 +18,10 @@ import java.io.InterruptedIOException;
 import java.io.PrintWriter;
 import java.net.Socket;
 import java.net.UnknownHostException;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Calendar;
+import java.util.GregorianCalendar;
 import java.util.Map;
 import java.util.Scanner;
 
@@ -43,13 +48,16 @@ import com.stefensharkey.cah.player.Player;
 
 public class Client extends JFrame
 {
+	private static final long serialVersionUID = -9115484398842293479L;
+	
 	private String serverUrl = "";
 	private String name;
 	
 	private Player player;
 	
 	private Scanner scanner;
-	private PrintWriter printWriter;
+	public PrintWriter printWriter;
+	private Socket socket;
 	
 	private static final int PORT = 666;
 	
@@ -63,9 +71,13 @@ public class Client extends JFrame
 	private JPanel bottomContainer;
 	private JPanel centerPanel;
 	
+	private ArrayList<JButton> buttons = new ArrayList<>();;
+	
 	private Player[] players = new Player[25];
 	
 	private BlackCard czarCard;
+	
+	public String buttonPressed;
 
 	/**
 	 * Launch the application.
@@ -143,11 +155,6 @@ public class Client extends JFrame
 		bottomPanel.setLayout(new BoxLayout(bottomPanel, BoxLayout.Y_AXIS));
 		bottomPanel.add(new JSeparator(JSeparator.HORIZONTAL));
 		
-//		bottomContainer = new JPanel();
-//		bottomContainer.setLayout(new GridLayout());
-//		bottomContainer.add(createCardGrid(2, 5));
-		
-//		bottomPanel.add(bottomContainer);
 		updateBottomCard(bottomPanel, 2, 5);
 		
 		centerPanel = new JPanel();
@@ -162,7 +169,7 @@ public class Client extends JFrame
 	public boolean isInteger(String s)
 	{
 	    try
-	    { 
+	    {
 	        Integer.parseInt(s); 
 	    } catch(NumberFormatException e)
 	    {
@@ -199,7 +206,35 @@ public class Client extends JFrame
 		JPanel card = new JPanel();
 		card.setLayout(new BorderLayout());
 		JButton button = new JButton(whiteCard.toString());
+		button.addActionListener(new ActionListener()
+		{
+			public void actionPerformed(ActionEvent e)
+			{
+				System.out.println(buttonPressed = e.getActionCommand());
+			}
+		});
 		card.add(button);
+		buttons.add(button);
+		return card;
+	}
+	
+	public JPanel createWhiteCard(WhiteCard whiteCard, GridLayout gridLayout, int x, int y)
+	{
+		final int x2 = x;
+		final int y2 = y;
+		final GridLayout gridLayout2 = gridLayout;
+		JPanel card = new JPanel();
+		card.setLayout(new BorderLayout());
+		JButton button = new JButton(whiteCard.toString());
+		button.addActionListener(new ActionListener()
+		{
+			public void actionPerformed(ActionEvent e)
+			{
+				System.out.println(buttonPressed = String.valueOf(x2*gridLayout2.getColumns()+y2));
+			}
+		});
+		card.add(button);
+		buttons.add(button);
 		return card;
 	}
 	
@@ -218,7 +253,7 @@ public class Client extends JFrame
 		panel.setLayout(gridLayout);
 		for(int x = 0; x < gridLayout.getColumns(); x++)
 			for(int y = 0; y < gridLayout.getRows(); y++)
-				panel.add(createWhiteCard(new WhiteCard("White Card " + (x*gridLayout.getColumns()+y))));
+				panel.add(createWhiteCard(new WhiteCard("White Card " + (x*gridLayout.getColumns()+y)), gridLayout, x, y));
 		return panel;
 	}
 	
@@ -247,13 +282,23 @@ public class Client extends JFrame
 		label.setFont(font.deriveFont(attributes));
 		return label;
 	}
+	
+	public void chooseCard()
+	{
+		SimpleDateFormat sdf = new SimpleDateFormat("HH:mm:ss");	
+		Calendar calendar = new GregorianCalendar(2013,0,31);
+		System.out.println("Listening for mouse press...");
+		while(buttonPressed == null)
+			System.out.println(sdf.format(calendar.getTime()) + " " + buttonPressed);
+		printWriter.println(buttonPressed);
+	}
 
 	public JFrame getInstance()
 	{
 		return this;
 	}
 	
-	class ClientWatchdog implements Runnable
+	class ClientWatchdog extends Thread
 	{
 		private Socket socket = null;
 		private InputStreamReader inputStreamReader = null;
@@ -300,10 +345,12 @@ public class Client extends JFrame
 						case "Select which card you would like to play.":
 							System.out.println(lineRead);
 							JOptionPane.showMessageDialog(getInstance(), lineRead);
+							chooseCard();
 							break;
 						case "Select which cards you would like to play.":
 							System.out.println(lineRead);
 							JOptionPane.showMessageDialog(getInstance(), lineRead);
+							chooseCard();
 							break;
 						default:
 							System.out.println(lineRead);
@@ -311,7 +358,6 @@ public class Client extends JFrame
 					}
 					if(lineRead.startsWith("The Black Card is: "))
 					{
-						// start at the length of the string
 						czarCard = new BlackCard(lineRead.substring(lineRead.lastIndexOf("The Black Card is: ")));
 						System.out.println(czarCard);
 					}
@@ -327,7 +373,7 @@ public class Client extends JFrame
 	{
 		public void run()
 		{
-			Socket socket = null;
+			socket = null;
 			try
 			{
 				String ip = JOptionPane.showInputDialog(jFrame, "Please enter the server IP:");
@@ -358,8 +404,7 @@ public class Client extends JFrame
 					player = new Player(name, 0);
 					
 					ClientWatchdog clientWatchdog = new ClientWatchdog(socket);
-					Thread thread = new Thread(clientWatchdog);
-					thread.start();
+					clientWatchdog.start();
 				}
 			} catch (UnknownHostException e)
 			{

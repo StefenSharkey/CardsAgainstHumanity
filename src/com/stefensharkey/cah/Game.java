@@ -87,7 +87,7 @@ public class Game
 	
 	public ArrayList<WhiteCard> selectCard(Player player, Socket socket)
 	{
-		ArrayList<WhiteCard> tmp = new ArrayList<>();
+		WhiteDeck tmp = new WhiteDeck();
 		Server tmpServer = new Server();
 		
 		server.printToClient(player.getName() + "'s Cards", player);

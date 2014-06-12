@@ -11,7 +11,7 @@ import com.stefensharkey.cah.server.Server;
 
 public class Player implements IPlayer
 {
-	private ArrayList<WhiteCard> hand; 
+	private WhiteDeck hand; 
 	private ArrayList<BlackCard> wonCards;
 	
 	private int score;
@@ -36,7 +36,7 @@ public class Player implements IPlayer
 		
 		score = 0;
 		
-		hand = new ArrayList<>();
+		hand = new WhiteDeck();
 		wonCards = new ArrayList<>();
 	}
 	
@@ -126,6 +126,16 @@ public class Player implements IPlayer
 		return blackCard;
 	}
 	
+	public boolean hasCard(WhiteCard whiteCard)
+	{
+		return hand.contains(whiteCard);
+	}
+	
+	public boolean hasCard(String whiteCard)
+	{
+		return hand.contains(whiteCard);
+	}
+	
 	public ArrayList<BlackCard> getWonCards()
 	{
 		return wonCards;
@@ -141,7 +151,7 @@ public class Player implements IPlayer
 		return name;
 	}
 	
-	public ArrayList<WhiteCard> getHand()
+	public WhiteDeck getHand()
 	{
 		return hand;
 	}

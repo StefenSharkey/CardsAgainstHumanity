@@ -24,6 +24,7 @@ public class Main
 			maxScore = keyboard.nextInt();
 			System.out.println();
 		}
+		keyboard.close();
 		game.startGame(players, maxScore);
 	}
 }

@@ -12,7 +12,7 @@ import org.w3c.dom.Document;
 import org.w3c.dom.NodeList;
 import org.xml.sax.SAXException;
 
-public class WhiteDeck
+public class WhiteDeck extends ArrayList<WhiteCard>
 {
 	private static ArrayList<WhiteCard> deck = new ArrayList<>();
 	
@@ -34,6 +34,18 @@ public class WhiteDeck
 		}
 	}
 	
+	public ArrayList<WhiteCard> addDeck(ArrayList<WhiteCard> whiteCards)
+	{
+		deck.addAll(whiteCards);
+		return whiteCards;
+	}
+	
+	public WhiteCard addDeck(WhiteCard whiteCard)
+	{
+		deck.add(whiteCard);
+		return whiteCard;
+	}
+	
 	public WhiteCard getCard()
 	{
 		Random r1 = new Random();
@@ -43,6 +55,23 @@ public class WhiteDeck
 	public boolean isEmpty()
 	{
 		return deck.size() > 0 ? false : true;
+	}
+	
+	public int indexOf(Object object)
+	{
+		for(int x = 0; x < deck.size(); x++)
+			if(deck.get(x).equals(object))
+				return x;
+		return -1;
+	}
+	
+	public int indexOf(String string)
+	{
+		for(int x = 0; x < deck.size(); x++)
+			if(deck.get(x).toString().equals(string))
+				return x;
+		return -1;
+//		return indexOf(new WhiteCard(string));
 	}
 	
 	public String toString()

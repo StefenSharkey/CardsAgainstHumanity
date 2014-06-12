@@ -8,7 +8,9 @@ import javax.swing.JScrollPane;
 
 public class ScrollPaneLayout extends javax.swing.ScrollPaneLayout
 {
-    public Dimension preferredLayoutSize(Container parent)
+	private static final long serialVersionUID = -5568681851568103900L;
+
+	public Dimension preferredLayoutSize(Container parent)
     {
         Dimension dim =  super.preferredLayoutSize(parent);
         JScrollPane pane = (JScrollPane) parent;
