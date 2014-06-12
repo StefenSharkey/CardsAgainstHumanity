@@ -1,1083 +1,1616 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <cards>
-	<card>
-		<text>White Card 1</text>
-	</card>
-	<card>
-		<text>White Card 2</text>
-	</card>
-	<card>
-		<text>White Card 3</text>
-	</card>
-	<card>
-		<text>White Card 4</text>
-	</card>
-	<card>
-		<text>White Card 5</text>
-	</card>
-	<card>
-		<text>White Card 6</text>
-	</card>
-	<card>
-		<text>White Card 7</text>
-	</card>
-	<card>
-		<text>White Card 8</text>
-	</card>
-	<card>
-		<text>White Card 9</text>
-	</card>
-	<card>
-		<text>White Card 10</text>
-	</card>
-	<card>
-		<text>White Card 11</text>
-	</card>
-	<card>
-		<text>White Card 12</text>
-	</card>
-	<card>
-		<text>White Card 13</text>
-	</card>
-	<card>
-		<text>White Card 14</text>
-	</card>
-	<card>
-		<text>White Card 15</text>
-	</card>
-	<card>
-		<text>White Card 16</text>
-	</card>
-	<card>
-		<text>White Card 17</text>
-	</card>
-	<card>
-		<text>White Card 18</text>
-	</card>
-	<card>
-		<text>White Card 19</text>
-	</card>
-	<card>
-		<text>White Card 20</text>
-	</card>
-	<card>
-		<text>White Card 21</text>
-	</card>
-	<card>
-		<text>White Card 22</text>
-	</card>
-	<card>
-		<text>White Card 23</text>
-	</card>
-	<card>
-		<text>White Card 24</text>
-	</card>
-	<card>
-		<text>White Card 25</text>
-	</card>
-	<card>
-		<text>White Card 26</text>
-	</card>
-	<card>
-		<text>White Card 27</text>
-	</card>
-	<card>
-		<text>White Card 28</text>
-	</card>
-	<card>
-		<text>White Card 29</text>
-	</card>
-	<card>
-		<text>White Card 30</text>
-	</card>
-	<card>
-		<text>White Card 31</text>
-	</card>
-	<card>
-		<text>White Card 32</text>
-	</card>
-	<card>
-		<text>White Card 33</text>
-	</card>
-	<card>
-		<text>White Card 34</text>
-	</card>
-	<card>
-		<text>White Card 35</text>
-	</card>
-	<card>
-		<text>White Card 36</text>
-	</card>
-	<card>
-		<text>White Card 37</text>
-	</card>
-	<card>
-		<text>White Card 38</text>
-	</card>
-	<card>
-		<text>White Card 39</text>
-	</card>
-	<card>
-		<text>White Card 40</text>
-	</card>
-	<card>
-		<text>White Card 1</text>
-	</card>
-	<card>
-		<text>White Card 2</text>
-	</card>
-	<card>
-		<text>White Card 3</text>
-	</card>
-	<card>
-		<text>White Card 4</text>
-	</card>
-	<card>
-		<text>White Card 5</text>
-	</card>
-	<card>
-		<text>White Card 6</text>
-	</card>
-	<card>
-		<text>White Card 7</text>
-	</card>
-	<card>
-		<text>White Card 8</text>
-	</card>
-	<card>
-		<text>White Card 9</text>
-	</card>
-	<card>
-		<text>White Card 10</text>
-	</card>
-	<card>
-		<text>White Card 11</text>
-	</card>
-	<card>
-		<text>White Card 12</text>
-	</card>
-	<card>
-		<text>White Card 13</text>
-	</card>
-	<card>
-		<text>White Card 14</text>
-	</card>
-	<card>
-		<text>White Card 15</text>
-	</card>
-	<card>
-		<text>White Card 16</text>
-	</card>
-	<card>
-		<text>White Card 17</text>
-	</card>
-	<card>
-		<text>White Card 18</text>
-	</card>
-	<card>
-		<text>White Card 19</text>
-	</card>
-	<card>
-		<text>White Card 20</text>
-	</card>
-	<card>
-		<text>White Card 21</text>
-	</card>
-	<card>
-		<text>White Card 22</text>
-	</card>
-	<card>
-		<text>White Card 23</text>
-	</card>
-	<card>
-		<text>White Card 24</text>
-	</card>
-	<card>
-		<text>White Card 25</text>
-	</card>
-	<card>
-		<text>White Card 26</text>
-	</card>
-	<card>
-		<text>White Card 27</text>
-	</card>
-	<card>
-		<text>White Card 28</text>
-	</card>
-	<card>
-		<text>White Card 29</text>
-	</card>
-	<card>
-		<text>White Card 30</text>
-	</card>
-	<card>
-		<text>White Card 31</text>
-	</card>
-	<card>
-		<text>White Card 32</text>
-	</card>
-	<card>
-		<text>White Card 33</text>
-	</card>
-	<card>
-		<text>White Card 34</text>
-	</card>
-	<card>
-		<text>White Card 35</text>
-	</card>
-	<card>
-		<text>White Card 36</text>
-	</card>
-	<card>
-		<text>White Card 37</text>
-	</card>
-	<card>
-		<text>White Card 38</text>
-	</card>
-	<card>
-		<text>White Card 39</text>
-	</card>
-	<card>
-		<text>White Card 40</text>
-	</card>
-	<card>
-		<text>White Card 1</text>
-	</card>
-	<card>
-		<text>White Card 2</text>
-	</card>
-	<card>
-		<text>White Card 3</text>
-	</card>
-	<card>
-		<text>White Card 4</text>
-	</card>
-	<card>
-		<text>White Card 5</text>
-	</card>
-	<card>
-		<text>White Card 6</text>
-	</card>
-	<card>
-		<text>White Card 7</text>
-	</card>
-	<card>
-		<text>White Card 8</text>
-	</card>
-	<card>
-		<text>White Card 9</text>
-	</card>
-	<card>
-		<text>White Card 10</text>
-	</card>
-	<card>
-		<text>White Card 11</text>
-	</card>
-	<card>
-		<text>White Card 12</text>
-	</card>
-	<card>
-		<text>White Card 13</text>
-	</card>
-	<card>
-		<text>White Card 14</text>
-	</card>
-	<card>
-		<text>White Card 15</text>
-	</card>
-	<card>
-		<text>White Card 16</text>
-	</card>
-	<card>
-		<text>White Card 17</text>
-	</card>
-	<card>
-		<text>White Card 18</text>
-	</card>
-	<card>
-		<text>White Card 19</text>
-	</card>
-	<card>
-		<text>White Card 20</text>
-	</card>
-	<card>
-		<text>White Card 21</text>
-	</card>
-	<card>
-		<text>White Card 22</text>
-	</card>
-	<card>
-		<text>White Card 23</text>
-	</card>
-	<card>
-		<text>White Card 24</text>
-	</card>
-	<card>
-		<text>White Card 25</text>
-	</card>
-	<card>
-		<text>White Card 26</text>
-	</card>
-	<card>
-		<text>White Card 27</text>
-	</card>
-	<card>
-		<text>White Card 28</text>
-	</card>
-	<card>
-		<text>White Card 29</text>
-	</card>
-	<card>
-		<text>White Card 30</text>
-	</card>
-	<card>
-		<text>White Card 31</text>
-	</card>
-	<card>
-		<text>White Card 32</text>
-	</card>
-	<card>
-		<text>White Card 33</text>
-	</card>
-	<card>
-		<text>White Card 34</text>
-	</card>
-	<card>
-		<text>White Card 35</text>
-	</card>
-	<card>
-		<text>White Card 36</text>
-	</card>
-	<card>
-		<text>White Card 37</text>
-	</card>
-	<card>
-		<text>White Card 38</text>
-	</card>
-	<card>
-		<text>White Card 39</text>
-	</card>
-	<card>
-		<text>White Card 40</text>
-	</card>
-	<card>
-		<text>White Card 1</text>
-	</card>
-	<card>
-		<text>White Card 2</text>
-	</card>
-	<card>
-		<text>White Card 3</text>
-	</card>
-	<card>
-		<text>White Card 4</text>
-	</card>
-	<card>
-		<text>White Card 5</text>
-	</card>
-	<card>
-		<text>White Card 6</text>
-	</card>
-	<card>
-		<text>White Card 7</text>
-	</card>
-	<card>
-		<text>White Card 8</text>
-	</card>
-	<card>
-		<text>White Card 9</text>
-	</card>
-	<card>
-		<text>White Card 10</text>
-	</card>
-	<card>
-		<text>White Card 11</text>
-	</card>
-	<card>
-		<text>White Card 12</text>
-	</card>
-	<card>
-		<text>White Card 13</text>
-	</card>
-	<card>
-		<text>White Card 14</text>
-	</card>
-	<card>
-		<text>White Card 15</text>
-	</card>
-	<card>
-		<text>White Card 16</text>
-	</card>
-	<card>
-		<text>White Card 17</text>
-	</card>
-	<card>
-		<text>White Card 18</text>
-	</card>
-	<card>
-		<text>White Card 19</text>
-	</card>
-	<card>
-		<text>White Card 20</text>
-	</card>
-	<card>
-		<text>White Card 21</text>
-	</card>
-	<card>
-		<text>White Card 22</text>
-	</card>
-	<card>
-		<text>White Card 23</text>
-	</card>
-	<card>
-		<text>White Card 24</text>
-	</card>
-	<card>
-		<text>White Card 25</text>
-	</card>
-	<card>
-		<text>White Card 26</text>
-	</card>
-	<card>
-		<text>White Card 27</text>
-	</card>
-	<card>
-		<text>White Card 28</text>
-	</card>
-	<card>
-		<text>White Card 29</text>
-	</card>
-	<card>
-		<text>White Card 30</text>
-	</card>
-	<card>
-		<text>White Card 31</text>
-	</card>
-	<card>
-		<text>White Card 32</text>
-	</card>
-	<card>
-		<text>White Card 33</text>
-	</card>
-	<card>
-		<text>White Card 34</text>
-	</card>
-	<card>
-		<text>White Card 35</text>
-	</card>
-	<card>
-		<text>White Card 36</text>
-	</card>
-	<card>
-		<text>White Card 37</text>
-	</card>
-	<card>
-		<text>White Card 38</text>
-	</card>
-	<card>
-		<text>White Card 39</text>
-	</card>
-	<card>
-		<text>White Card 40</text>
-	</card>
-	<card>
-		<text>White Card 1</text>
-	</card>
-	<card>
-		<text>White Card 2</text>
-	</card>
-	<card>
-		<text>White Card 3</text>
-	</card>
-	<card>
-		<text>White Card 4</text>
-	</card>
-	<card>
-		<text>White Card 5</text>
-	</card>
-	<card>
-		<text>White Card 6</text>
-	</card>
-	<card>
-		<text>White Card 7</text>
-	</card>
-	<card>
-		<text>White Card 8</text>
-	</card>
-	<card>
-		<text>White Card 9</text>
-	</card>
-	<card>
-		<text>White Card 10</text>
-	</card>
-	<card>
-		<text>White Card 11</text>
-	</card>
-	<card>
-		<text>White Card 12</text>
-	</card>
-	<card>
-		<text>White Card 13</text>
-	</card>
-	<card>
-		<text>White Card 14</text>
-	</card>
-	<card>
-		<text>White Card 15</text>
-	</card>
-	<card>
-		<text>White Card 16</text>
-	</card>
-	<card>
-		<text>White Card 17</text>
-	</card>
-	<card>
-		<text>White Card 18</text>
-	</card>
-	<card>
-		<text>White Card 19</text>
-	</card>
-	<card>
-		<text>White Card 20</text>
-	</card>
-	<card>
-		<text>White Card 21</text>
-	</card>
-	<card>
-		<text>White Card 22</text>
-	</card>
-	<card>
-		<text>White Card 23</text>
-	</card>
-	<card>
-		<text>White Card 24</text>
-	</card>
-	<card>
-		<text>White Card 25</text>
-	</card>
-	<card>
-		<text>White Card 26</text>
-	</card>
-	<card>
-		<text>White Card 27</text>
-	</card>
-	<card>
-		<text>White Card 28</text>
-	</card>
-	<card>
-		<text>White Card 29</text>
-	</card>
-	<card>
-		<text>White Card 30</text>
-	</card>
-	<card>
-		<text>White Card 31</text>
-	</card>
-	<card>
-		<text>White Card 32</text>
-	</card>
-	<card>
-		<text>White Card 33</text>
-	</card>
-	<card>
-		<text>White Card 34</text>
-	</card>
-	<card>
-		<text>White Card 35</text>
-	</card>
-	<card>
-		<text>White Card 36</text>
-	</card>
-	<card>
-		<text>White Card 37</text>
-	</card>
-	<card>
-		<text>White Card 38</text>
-	</card>
-	<card>
-		<text>White Card 39</text>
-	</card>
-	<card>
-		<text>White Card 40</text>
-	</card>
-	<card>
-		<text>White Card 1</text>
-	</card>
-	<card>
-		<text>White Card 2</text>
-	</card>
-	<card>
-		<text>White Card 3</text>
-	</card>
-	<card>
-		<text>White Card 4</text>
-	</card>
-	<card>
-		<text>White Card 5</text>
-	</card>
-	<card>
-		<text>White Card 6</text>
-	</card>
-	<card>
-		<text>White Card 7</text>
-	</card>
-	<card>
-		<text>White Card 8</text>
-	</card>
-	<card>
-		<text>White Card 9</text>
-	</card>
-	<card>
-		<text>White Card 10</text>
-	</card>
-	<card>
-		<text>White Card 11</text>
-	</card>
-	<card>
-		<text>White Card 12</text>
-	</card>
-	<card>
-		<text>White Card 13</text>
-	</card>
-	<card>
-		<text>White Card 14</text>
-	</card>
-	<card>
-		<text>White Card 15</text>
-	</card>
-	<card>
-		<text>White Card 16</text>
-	</card>
-	<card>
-		<text>White Card 17</text>
-	</card>
-	<card>
-		<text>White Card 18</text>
-	</card>
-	<card>
-		<text>White Card 19</text>
-	</card>
-	<card>
-		<text>White Card 20</text>
-	</card>
-	<card>
-		<text>White Card 21</text>
-	</card>
-	<card>
-		<text>White Card 22</text>
-	</card>
-	<card>
-		<text>White Card 23</text>
-	</card>
-	<card>
-		<text>White Card 24</text>
-	</card>
-	<card>
-		<text>White Card 25</text>
-	</card>
-	<card>
-		<text>White Card 26</text>
-	</card>
-	<card>
-		<text>White Card 27</text>
-	</card>
-	<card>
-		<text>White Card 28</text>
-	</card>
-	<card>
-		<text>White Card 29</text>
-	</card>
-	<card>
-		<text>White Card 30</text>
-	</card>
-	<card>
-		<text>White Card 31</text>
-	</card>
-	<card>
-		<text>White Card 32</text>
-	</card>
-	<card>
-		<text>White Card 33</text>
-	</card>
-	<card>
-		<text>White Card 34</text>
-	</card>
-	<card>
-		<text>White Card 35</text>
-	</card>
-	<card>
-		<text>White Card 36</text>
-	</card>
-	<card>
-		<text>White Card 37</text>
-	</card>
-	<card>
-		<text>White Card 38</text>
-	</card>
-	<card>
-		<text>White Card 39</text>
-	</card>
-	<card>
-		<text>White Card 40</text>
-	</card>
-	<card>
-		<text>White Card 1</text>
-	</card>
-	<card>
-		<text>White Card 2</text>
-	</card>
-	<card>
-		<text>White Card 3</text>
-	</card>
-	<card>
-		<text>White Card 4</text>
-	</card>
-	<card>
-		<text>White Card 5</text>
-	</card>
-	<card>
-		<text>White Card 6</text>
-	</card>
-	<card>
-		<text>White Card 7</text>
-	</card>
-	<card>
-		<text>White Card 8</text>
-	</card>
-	<card>
-		<text>White Card 9</text>
-	</card>
-	<card>
-		<text>White Card 10</text>
-	</card>
-	<card>
-		<text>White Card 11</text>
-	</card>
-	<card>
-		<text>White Card 12</text>
-	</card>
-	<card>
-		<text>White Card 13</text>
-	</card>
-	<card>
-		<text>White Card 14</text>
-	</card>
-	<card>
-		<text>White Card 15</text>
-	</card>
-	<card>
-		<text>White Card 16</text>
-	</card>
-	<card>
-		<text>White Card 17</text>
-	</card>
-	<card>
-		<text>White Card 18</text>
-	</card>
-	<card>
-		<text>White Card 19</text>
-	</card>
-	<card>
-		<text>White Card 20</text>
-	</card>
-	<card>
-		<text>White Card 21</text>
-	</card>
-	<card>
-		<text>White Card 22</text>
-	</card>
-	<card>
-		<text>White Card 23</text>
-	</card>
-	<card>
-		<text>White Card 24</text>
-	</card>
-	<card>
-		<text>White Card 25</text>
-	</card>
-	<card>
-		<text>White Card 26</text>
-	</card>
-	<card>
-		<text>White Card 27</text>
-	</card>
-	<card>
-		<text>White Card 28</text>
-	</card>
-	<card>
-		<text>White Card 29</text>
-	</card>
-	<card>
-		<text>White Card 30</text>
-	</card>
-	<card>
-		<text>White Card 31</text>
-	</card>
-	<card>
-		<text>White Card 32</text>
-	</card>
-	<card>
-		<text>White Card 33</text>
-	</card>
-	<card>
-		<text>White Card 34</text>
-	</card>
-	<card>
-		<text>White Card 35</text>
-	</card>
-	<card>
-		<text>White Card 36</text>
-	</card>
-	<card>
-		<text>White Card 37</text>
-	</card>
-	<card>
-		<text>White Card 38</text>
-	</card>
-	<card>
-		<text>White Card 39</text>
-	</card>
-	<card>
-		<text>White Card 40</text>
-	</card>
-	<card>
-		<text>White Card 1</text>
-	</card>
-	<card>
-		<text>White Card 2</text>
-	</card>
-	<card>
-		<text>White Card 3</text>
-	</card>
-	<card>
-		<text>White Card 4</text>
-	</card>
-	<card>
-		<text>White Card 5</text>
-	</card>
-	<card>
-		<text>White Card 6</text>
-	</card>
-	<card>
-		<text>White Card 7</text>
-	</card>
-	<card>
-		<text>White Card 8</text>
-	</card>
-	<card>
-		<text>White Card 9</text>
-	</card>
-	<card>
-		<text>White Card 10</text>
-	</card>
-	<card>
-		<text>White Card 11</text>
-	</card>
-	<card>
-		<text>White Card 12</text>
-	</card>
-	<card>
-		<text>White Card 13</text>
-	</card>
-	<card>
-		<text>White Card 14</text>
-	</card>
-	<card>
-		<text>White Card 15</text>
-	</card>
-	<card>
-		<text>White Card 16</text>
-	</card>
-	<card>
-		<text>White Card 17</text>
-	</card>
-	<card>
-		<text>White Card 18</text>
-	</card>
-	<card>
-		<text>White Card 19</text>
-	</card>
-	<card>
-		<text>White Card 20</text>
-	</card>
-	<card>
-		<text>White Card 21</text>
-	</card>
-	<card>
-		<text>White Card 22</text>
-	</card>
-	<card>
-		<text>White Card 23</text>
-	</card>
-	<card>
-		<text>White Card 24</text>
-	</card>
-	<card>
-		<text>White Card 25</text>
-	</card>
-	<card>
-		<text>White Card 26</text>
-	</card>
-	<card>
-		<text>White Card 27</text>
-	</card>
-	<card>
-		<text>White Card 28</text>
-	</card>
-	<card>
-		<text>White Card 29</text>
-	</card>
-	<card>
-		<text>White Card 30</text>
-	</card>
-	<card>
-		<text>White Card 31</text>
-	</card>
-	<card>
-		<text>White Card 32</text>
-	</card>
-	<card>
-		<text>White Card 33</text>
-	</card>
-	<card>
-		<text>White Card 34</text>
-	</card>
-	<card>
-		<text>White Card 35</text>
-	</card>
-	<card>
-		<text>White Card 36</text>
-	</card>
-	<card>
-		<text>White Card 37</text>
-	</card>
-	<card>
-		<text>White Card 38</text>
-	</card>
-	<card>
-		<text>White Card 39</text>
-	</card>
-	<card>
-		<text>White Card 40</text>
-	</card>
-	<card>
-		<text>White Card 1</text>
-	</card>
-	<card>
-		<text>White Card 2</text>
-	</card>
-	<card>
-		<text>White Card 3</text>
-	</card>
-	<card>
-		<text>White Card 4</text>
-	</card>
-	<card>
-		<text>White Card 5</text>
-	</card>
-	<card>
-		<text>White Card 6</text>
-	</card>
-	<card>
-		<text>White Card 7</text>
-	</card>
-	<card>
-		<text>White Card 8</text>
-	</card>
-	<card>
-		<text>White Card 9</text>
-	</card>
-	<card>
-		<text>White Card 10</text>
-	</card>
-	<card>
-		<text>White Card 11</text>
-	</card>
-	<card>
-		<text>White Card 12</text>
-	</card>
-	<card>
-		<text>White Card 13</text>
-	</card>
-	<card>
-		<text>White Card 14</text>
-	</card>
-	<card>
-		<text>White Card 15</text>
-	</card>
-	<card>
-		<text>White Card 16</text>
-	</card>
-	<card>
-		<text>White Card 17</text>
-	</card>
-	<card>
-		<text>White Card 18</text>
-	</card>
-	<card>
-		<text>White Card 19</text>
-	</card>
-	<card>
-		<text>White Card 20</text>
-	</card>
-	<card>
-		<text>White Card 21</text>
-	</card>
-	<card>
-		<text>White Card 22</text>
-	</card>
-	<card>
-		<text>White Card 23</text>
-	</card>
-	<card>
-		<text>White Card 24</text>
-	</card>
-	<card>
-		<text>White Card 25</text>
-	</card>
-	<card>
-		<text>White Card 26</text>
-	</card>
-	<card>
-		<text>White Card 27</text>
-	</card>
-	<card>
-		<text>White Card 28</text>
-	</card>
-	<card>
-		<text>White Card 29</text>
-	</card>
-	<card>
-		<text>White Card 30</text>
-	</card>
-	<card>
-		<text>White Card 31</text>
-	</card>
-	<card>
-		<text>White Card 32</text>
-	</card>
-	<card>
-		<text>White Card 33</text>
-	</card>
-	<card>
-		<text>White Card 34</text>
-	</card>
-	<card>
-		<text>White Card 35</text>
-	</card>
-	<card>
-		<text>White Card 36</text>
-	</card>
-	<card>
-		<text>White Card 37</text>
-	</card>
-	<card>
-		<text>White Card 38</text>
-	</card>
-	<card>
-		<text>White Card 39</text>
-	</card>
-	<card>
-		<text>White Card 40</text>
-	</card>
+    <card>
+      <text>A Gypsy curse.</text>
+    </card>
+    <card>
+      <text>A moment of silence.</text>
+    </card>
+    <card>
+      <text>A sausage festival.</text>
+    </card>
+    <card>
+      <text>An honest cop with nothing left to lose.</text>
+    </card>
+    <card>
+      <text>Famine.</text>
+    </card>
+    <card>
+      <text>Flesh-eating bacteria.</text>
+    </card>
+    <card>
+      <text>Flying sex snakes.</text>
+    </card>
+    <card>
+      <text>Not giving a shit about the Third World.</text>
+    </card>
+    <card>
+      <text>Sexting.</text>
+    </card>
+    <card>
+      <text>Shapeshifters.</text>
+    </card>
+    <card>
+      <text>Porn stars.</text>
+    </card>
+    <card>
+      <text>72 virgins.</text>
+    </card>
+    <card>
+      <text>A drive-by shooting.</text>
+    </card>
+    <card>
+      <text>A time travel paradox.</text>
+    </card>
+    <card>
+      <text>Authentic Mexican cuisine.</text>
+    </card>
+    <card>
+      <text>Bling.</text>
+    </card>
+    <card>
+      <text>Consultants.</text>
+    </card>
+    <card>
+      <text>Crippling debt.</text>
+    </card>
+    <card>
+      <text>Daddy issues.</text>
+    </card>
+    <card>
+      <text>The Donald Trump Seal of Approvalâ„¢.</text>
+    </card>
+    <card>
+      <text>Dropping a chandelier on your enemies and riding the rope up.</text>
+    </card>
+    <card>
+      <text>Former President George W. Bush.</text>
+    </card>
+    <card>
+      <text>Full frontal nudity.</text>
+    </card>
+    <card>
+      <text>Hormone injections.</text>
+    </card>
+    <card>
+      <text>Laying an egg.</text>
+    </card>
+    <card>
+      <text>Getting naked and watching Nickelodeon.</text>
+    </card>
+    <card>
+      <text>Pretending to care.</text>
+    </card>
+    <card>
+      <text>Public ridicule.</text>
+    </card>
+    <card>
+      <text>Sharing needles.</text>
+    </card>
+    <card>
+      <text>Boogers.</text>
+    </card>
+    <card>
+      <text>The inevitable heat death of the universe.</text>
+    </card>
+    <card>
+      <text>The miracle of childbirth.</text>
+    </card>
+    <card>
+      <text>The Rapture.</text>
+    </card>
+    <card>
+      <text>Whipping it out.</text>
+    </card>
+    <card>
+      <text>White privilege.</text>
+    </card>
+    <card>
+      <text>Wifely duties.</text>
+    </card>
+    <card>
+      <text>The Hamburglar.</text>
+    </card>
+    <card>
+      <text>AXE Body Spray.</text>
+    </card>
+    <card>
+      <text>The Blood of Christ.</text>
+    </card>
+    <card>
+      <text>Horrifying laser hair removal accidents.</text>
+    </card>
+    <card>
+      <text>BATMAN!!!</text>
+    </card>
+    <card>
+      <text>Agriculture.</text>
+    </card>
+    <card>
+      <text>A robust mongoloid.</text>
+    </card>
+    <card>
+      <text>Natural selection.</text>
+    </card>
+    <card>
+      <text>Coat hanger abortions.</text>
+    </card>
+    <card>
+      <text>Eating all of the cookies before the AIDS bake-sale.</text>
+    </card>
+    <card>
+      <text>Michelle Obama's arms.</text>
+    </card>
+    <card>
+      <text>The World of Warcraft.</text>
+    </card>
+    <card>
+      <text>Swooping.</text>
+    </card>
+    <card>
+      <text>Obesity.</text>
+    </card>
+    <card>
+      <text>A homoerotic volleyball montage.</text>
+    </card>
+    <card>
+      <text>Lockjaw.</text>
+    </card>
+    <card>
+      <text>A mating display.</text>
+    </card>
+    <card>
+      <text>Testicular torsion.</text>
+    </card>
+    <card>
+      <text>All-you-can-eat shrimp for $4.99.</text>
+    </card>
+    <card>
+      <text>Domino'sâ„¢ Oreoâ„¢ Dessert Pizza.</text>
+    </card>
+    <card>
+      <text>Kanye West.</text>
+    </card>
+    <card>
+      <text>Hot cheese.</text>
+    </card>
+    <card>
+      <text>Raptor attacks.</text>
+    </card>
+    <card>
+      <text>Taking off your shirt.</text>
+    </card>
+    <card>
+      <text>Smegma.</text>
+    </card>
+    <card>
+      <text>Alcoholism.</text>
+    </card>
+    <card>
+      <text>A middle-aged man on roller skates.</text>
+    </card>
+    <card>
+      <text>The Care Bear Stare.</text>
+    </card>
+    <card>
+      <text>Bingeing and purging.</text>
+    </card>
+    <card>
+      <text>Oversized lollipops.</text>
+    </card>
+    <card>
+      <text>Self-loathing.</text>
+    </card>
+    <card>
+      <text>Children on leashes.</text>
+    </card>
+    <card>
+      <text>Half-assed foreplay.</text>
+    </card>
+    <card>
+      <text>The Holy Bible.</text>
+    </card>
+    <card>
+      <text>German dungeon porn.</text>
+    </card>
+    <card>
+      <text>Being on fire.</text>
+    </card>
+    <card>
+      <text>Teenage pregnancy.</text>
+    </card>
+    <card>
+      <text>Gandhi.</text>
+    </card>
+    <card>
+      <text>Leaving an awkward voicemail.</text>
+    </card>
+    <card>
+      <text>Uppercuts.</text>
+    </card>
+    <card>
+      <text>Customer service representatives.</text>
+    </card>
+    <card>
+      <text>An erection that lasts longer than four hours.</text>
+    </card>
+    <card>
+      <text>My genitals.</text>
+    </card>
+    <card>
+      <text>Picking up girls at the abortion clinic.</text>
+    </card>
+    <card>
+      <text>Science.</text>
+    </card>
+    <card>
+      <text>Not reciprocating oral sex.</text>
+    </card>
+    <card>
+      <text>Flightless birds.</text>
+    </card>
+    <card>
+      <text>A good sniff.</text>
+    </card>
+    <card>
+      <text>Waterboarding.</text>
+    </card>
+    <card>
+      <text>A balanced breakfast.</text>
+    </card>
+    <card>
+      <text>Historically black colleges.</text>
+    </card>
+    <card>
+      <text>Actually taking candy from a baby.</text>
+    </card>
+    <card>
+      <text>The Make-A-Wish Foundation.</text>
+    </card>
+    <card>
+      <text>A clandestine butt scratch.</text>
+    </card>
+    <card>
+      <text>Passive-aggressive Post-it notes.</text>
+    </card>
+    <card>
+      <text>The Chinese gymnastics team.</text>
+    </card>
+    <card>
+      <text>Switching to Geico.</text>
+    </card>
+    <card>
+      <text>Peeing a little bit.</text>
+    </card>
+    <card>
+      <text>Home video of Oprah sobbing into a Lean Cuisine.</text>
+    </card>
+    <card>
+      <text>Nocturnal emissions.</text>
+    </card>
+    <card>
+      <text>The Jews.</text>
+    </card>
+    <card>
+      <text>My humps.</text>
+    </card>
+    <card>
+      <text>Powerful thighs.</text>
+    </card>
+    <card>
+      <text>Winking at old people.</text>
+    </card>
+    <card>
+      <text>Mr. Clean, right behind you.</text>
+    </card>
+    <card>
+      <text>A gentle caress of the inner thigh.</text>
+    </card>
+    <card>
+      <text>Sexual tension.</text>
+    </card>
+    <card>
+      <text>The forbidden fruit.</text>
+    </card>
+    <card>
+      <text>Skeletor.</text>
+    </card>
+    <card>
+      <text>Fancy Feast.</text>
+    </card>
+    <card>
+      <text>Being rich.</text>
+    </card>
+    <card>
+      <text>Sweet, sweet vengeance.</text>
+    </card>
+    <card>
+      <text>Republicans.</text>
+    </card>
+    <card>
+      <text>A gassy antelope.</text>
+    </card>
+    <card>
+      <text>Natalie Portman.</text>
+    </card>
+    <card>
+      <text>Copping a feel.</text>
+    </card>
+    <card>
+      <text>Kamikaze pilots.</text>
+    </card>
+    <card>
+      <text>Sean Connery.</text>
+    </card>
+    <card>
+      <text>The homosexual agenda.</text>
+    </card>
+    <card>
+      <text>The hardworking Mexican.</text>
+    </card>
+    <card>
+      <text>A falcon with a cap on its head.</text>
+    </card>
+    <card>
+      <text>Altar boys.</text>
+    </card>
+    <card>
+      <text>The Kool-Aid Man.</text>
+    </card>
+    <card>
+      <text>Getting so angry that you pop a boner.</text>
+    </card>
+    <card>
+      <text>Free samples.</text>
+    </card>
+    <card>
+      <text>A big hoopla about nothing.</text>
+    </card>
+    <card>
+      <text>Doing the right thing.</text>
+    </card>
+    <card>
+      <text>The Three-Fifths compromise.</text>
+    </card>
+    <card>
+      <text>Lactation.</text>
+    </card>
+    <card>
+      <text>World peace.</text>
+    </card>
+    <card>
+      <text>RoboCop.</text>
+    </card>
+    <card>
+      <text>Chutzpah.</text>
+    </card>
+    <card>
+      <text>Justin Bieber.</text>
+    </card>
+    <card>
+      <text>Oompa-Loompas.</text>
+    </card>
+    <card>
+      <text>Inappropriate yodeling.</text>
+    </card>
+    <card>
+      <text>Puberty.</text>
+    </card>
+    <card>
+      <text>Ghosts.</text>
+    </card>
+    <card>
+      <text>An asymmetric boob job.</text>
+    </card>
+    <card>
+      <text>Vigorous jazz hands.</text>
+    </card>
+    <card>
+      <text>Fingering.</text>
+    </card>
+    <card>
+      <text>Glenn Beck catching his scrotum on a curtain hook.</text>
+    </card>
+    <card>
+      <text>GoGurt.</text>
+    </card>
+    <card>
+      <text>Police brutality.</text>
+    </card>
+    <card>
+      <text>John Wilkes Booth.</text>
+    </card>
+    <card>
+      <text>Preteens.</text>
+    </card>
+    <card>
+      <text>Scalping.</text>
+    </card>
+    <card>
+      <text>Stifling a giggle at the mention of Hutus and Tutsis.</text>
+    </card>
+    <card>
+      <text>&quot;Tweeting.&quot;</text>
+    </card>
+    <card>
+      <text>Darth Vader.</text>
+    </card>
+    <card>
+      <text>A sad handjob.</text>
+    </card>
+    <card>
+      <text>Exactly what you'd expect.</text>
+    </card>
+    <card>
+      <text>Expecting a burp and vomiting on the floor.</text>
+    </card>
+    <card>
+      <text>Adderallâ„¢.</text>
+    </card>
+    <card>
+      <text>Embryonic stem cells.</text>
+    </card>
+    <card>
+      <text>Tasteful sideboob.</text>
+    </card>
+    <card>
+      <text>Panda sex.</text>
+    </card>
+    <card>
+      <text>An icepick lobotomy.</text>
+    </card>
+    <card>
+      <text>Tom Cruise.</text>
+    </card>
+    <card>
+      <text>Mouth herpes.</text>
+    </card>
+    <card>
+      <text>Sperm whales.</text>
+    </card>
+    <card>
+      <text>Homeless people.</text>
+    </card>
+    <card>
+      <text>Third base.</text>
+    </card>
+    <card>
+      <text>Incest.</text>
+    </card>
+    <card>
+      <text>Pac-Man uncontrollably guzzling cum.</text>
+    </card>
+    <card>
+      <text>A mime having a stroke.</text>
+    </card>
+    <card>
+      <text>Hulk Hogan.</text>
+    </card>
+    <card>
+      <text>God.</text>
+    </card>
+    <card>
+      <text>Scrubbing under the folds.</text>
+    </card>
+    <card>
+      <text>Golden showers.</text>
+    </card>
+    <card>
+      <text>Emotions.</text>
+    </card>
+    <card>
+      <text>Licking things to claim them as your own.</text>
+    </card>
+    <card>
+      <text>Pabst Blue Ribbon.</text>
+    </card>
+    <card>
+      <text>The placenta.</text>
+    </card>
+    <card>
+      <text>Spontaneous human combustion.</text>
+    </card>
+    <card>
+      <text>Friends with benefits.</text>
+    </card>
+    <card>
+      <text>Finger painting.</text>
+    </card>
+    <card>
+      <text>Old-people smell.</text>
+    </card>
+    <card>
+      <text>Dying of dysentery.</text>
+    </card>
+    <card>
+      <text>My inner demons.</text>
+    </card>
+    <card>
+      <text>A Super Soakerâ„¢ full of cat pee.</text>
+    </card>
+    <card>
+      <text>Aaron Burr.</text>
+    </card>
+    <card>
+      <text>Cuddling.</text>
+    </card>
+    <card>
+      <text>The chronic.</text>
+    </card>
+    <card>
+      <text>Cockfights.</text>
+    </card>
+    <card>
+      <text>Friendly fire.</text>
+    </card>
+    <card>
+      <text>Ronald Reagan.</text>
+    </card>
+    <card>
+      <text>A disappointing birthday party.</text>
+    </card>
+    <card>
+      <text>A sassy black woman.</text>
+    </card>
+    <card>
+      <text>Mathletes.</text>
+    </card>
+    <card>
+      <text>A tiny horse.</text>
+    </card>
+    <card>
+      <text>William Shatner.</text>
+    </card>
+    <card>
+      <text>Riding off into the sunset.</text>
+    </card>
+    <card>
+      <text>An M. Night Shyamalan plot twist.</text>
+    </card>
+    <card>
+      <text>Jew-fros.</text>
+    </card>
+    <card>
+      <text>Mutually-assured destruction.</text>
+    </card>
+    <card>
+      <text>Pedophiles.</text>
+    </card>
+    <card>
+      <text>Yeast.</text>
+    </card>
+    <card>
+      <text>Grave robbing.</text>
+    </card>
+    <card>
+      <text>Eating the last known bison.</text>
+    </card>
+    <card>
+      <text>Catapults.</text>
+    </card>
+    <card>
+      <text>Poor people.</text>
+    </card>
+    <card>
+      <text>Forgetting the Alamo.</text>
+    </card>
+    <card>
+      <text>The Hustle.</text>
+    </card>
+    <card>
+      <text>The Force.</text>
+    </card>
+    <card>
+      <text>Wiping her butt.</text>
+    </card>
+    <card>
+      <text>Intelligent design.</text>
+    </card>
+    <card>
+      <text>Loose lips.</text>
+    </card>
+    <card>
+      <text>AIDS.</text>
+    </card>
+    <card>
+      <text>Pictures of boobs.</text>
+    </card>
+    <card>
+      <text>The Ãœbermensch.</text>
+    </card>
+    <card>
+      <text>Sarah Palin.</text>
+    </card>
+    <card>
+      <text>American Gladiators.</text>
+    </card>
+    <card>
+      <text>Getting really high.</text>
+    </card>
+    <card>
+      <text>Scientology.</text>
+    </card>
+    <card>
+      <text>Penis envy.</text>
+    </card>
+    <card>
+      <text>Praying the gay away.</text>
+    </card>
+    <card>
+      <text>Frolicking.</text>
+    </card>
+    <card>
+      <text>Two midgets shitting into a bucket.</text>
+    </card>
+    <card>
+      <text>The KKK.</text>
+    </card>
+    <card>
+      <text>Genghis Khan.</text>
+    </card>
+    <card>
+      <text>Crystal meth.</text>
+    </card>
+    <card>
+      <text>Serfdom.</text>
+    </card>
+    <card>
+      <text>Stranger danger.</text>
+    </card>
+    <card>
+      <text>A Bop Itâ„¢.</text>
+    </card>
+    <card>
+      <text>Shaquille O'Neal's acting career.</text>
+    </card>
+    <card>
+      <text>Prancing.</text>
+    </card>
+    <card>
+      <text>Vigilante justice.</text>
+    </card>
+    <card>
+      <text>Overcompensation.</text>
+    </card>
+    <card>
+      <text>Pixelated bukkake.</text>
+    </card>
+    <card>
+      <text>A lifetime of sadness.</text>
+    </card>
+    <card>
+      <text>Racism.</text>
+    </card>
+    <card>
+      <text>Dwarf tossing.</text>
+    </card>
+    <card>
+      <text>Sunshine and rainbows.</text>
+    </card>
+    <card>
+      <text>A monkey smoking a cigar.</text>
+    </card>
+    <card>
+      <text>Flash flooding.</text>
+    </card>
+    <card>
+      <text>Lance Armstrong's missing testicle.</text>
+    </card>
+    <card>
+      <text>Dry heaving.</text>
+    </card>
+    <card>
+      <text>The terrorists.</text>
+    </card>
+    <card>
+      <text>Britney Spears at 55.</text>
+    </card>
+    <card>
+      <text>Attitude.</text>
+    </card>
+    <card>
+      <text>Breaking out into song and dance.</text>
+    </card>
+    <card>
+      <text>Leprosy.</text>
+    </card>
+    <card>
+      <text>Gloryholes.</text>
+    </card>
+    <card>
+      <text>Nipple blades.</text>
+    </card>
+    <card>
+      <text>The heart of a child.</text>
+    </card>
+    <card>
+      <text>Puppies!</text>
+    </card>
+    <card>
+      <text>Waking up half-naked in a Denny's parking lot.</text>
+    </card>
+    <card>
+      <text>Dental dams.</text>
+    </card>
+    <card>
+      <text>Toni Morrison's vagina.</text>
+    </card>
+    <card>
+      <text>The taint; the grundle; the fleshy fun-bridge.</text>
+    </card>
+    <card>
+      <text>Active listening.</text>
+    </card>
+    <card>
+      <text>Ethnic cleansing.</text>
+    </card>
+    <card>
+      <text>The Little Engine That Could.</text>
+    </card>
+    <card>
+      <text>The invisible hand.</text>
+    </card>
+    <card>
+      <text>Waiting â€˜til marriage.</text>
+    </card>
+    <card>
+      <text>Unfathomable stupidity.</text>
+    </card>
+    <card>
+      <text>Euphoriaâ„¢ by Calvin Klein.</text>
+    </card>
+    <card>
+      <text>Re-gifting.</text>
+    </card>
+    <card>
+      <text>Autocannibalism.</text>
+    </card>
+    <card>
+      <text>Erectile dysfunction.</text>
+    </card>
+    <card>
+      <text>My collection of high-tech sex toys.</text>
+    </card>
+    <card>
+      <text>The Pope.</text>
+    </card>
+    <card>
+      <text>White people.</text>
+    </card>
+    <card>
+      <text>Tentacle porn.</text>
+    </card>
+    <card>
+      <text>Glenn Beck convulsively vomiting as a brood of crab spiders hatches in his brain and erupts from his tear ducts.</text>
+    </card>
+    <card>
+      <text>Too much hair gel.</text>
+    </card>
+    <card>
+      <text>Seppuku.</text>
+    </card>
+    <card>
+      <text>Same-sex ice dancing.</text>
+    </card>
+    <card>
+      <text>Cheating in the Special Olympics.</text>
+    </card>
+    <card>
+      <text>Charisma.</text>
+    </card>
+    <card>
+      <text>Keanu Reeves.</text>
+    </card>
+    <card>
+      <text>Sean Penn.</text>
+    </card>
+    <card>
+      <text>Nickelback.</text>
+    </card>
+    <card>
+      <text>A look-see.</text>
+    </card>
+    <card>
+      <text>Pooping back and forth. Forever.</text>
+    </card>
+    <card>
+      <text>Menstruation.</text>
+    </card>
+    <card>
+      <text>Kids with ass cancer.</text>
+    </card>
+    <card>
+      <text>A salty surprise.</text>
+    </card>
+    <card>
+      <text>The South.</text>
+    </card>
+    <card>
+      <text>The violation of our most basic human rights.</text>
+    </card>
+    <card>
+      <text>YOU MUST CONSTRUCT ADDITIONAL PYLONS.</text>
+    </card>
+    <card>
+      <text>Being fabulous.</text>
+    </card>
+    <card>
+      <text>Necrophilia.</text>
+    </card>
+    <card>
+      <text>Centaurs.</text>
+    </card>
+    <card>
+      <text>Bill Nye the Science Guy.</text>
+    </card>
+    <card>
+      <text>Black people.</text>
+    </card>
+    <card>
+      <text>Chivalry.</text>
+    </card>
+    <card>
+      <text>Lunchablesâ„¢.</text>
+    </card>
+    <card>
+      <text>Bitches.</text>
+    </card>
+    <card>
+      <text>The profoundly handicapped.</text>
+    </card>
+    <card>
+      <text>Heartwarming orphans.</text>
+    </card>
+    <card>
+      <text>MechaHitler.</text>
+    </card>
+    <card>
+      <text>Fiery poops.</text>
+    </card>
+    <card>
+      <text>Another goddamn vampire movie.</text>
+    </card>
+    <card>
+      <text>Tangled Slinkys.</text>
+    </card>
+    <card>
+      <text>The true meaning of Christmas.</text>
+    </card>
+    <card>
+      <text>Estrogen.</text>
+    </card>
+    <card>
+      <text>A zesty breakfast burrito.</text>
+    </card>
+    <card>
+      <text>That thing that electrocutes your abs.</text>
+    </card>
+    <card>
+      <text>Passing a kidney stone.</text>
+    </card>
+    <card>
+      <text>A bleached asshole.</text>
+    </card>
+    <card>
+      <text>Michael Jackson.</text>
+    </card>
+    <card>
+      <text>Cybernetic enhancements.</text>
+    </card>
+    <card>
+      <text>Guys who don't call.</text>
+    </card>
+    <card>
+      <text>Smallpox blankets.</text>
+    </card>
+    <card>
+      <text>Masturbation.</text>
+    </card>
+    <card>
+      <text>Classist undertones.</text>
+    </card>
+    <card>
+      <text>Queefing.</text>
+    </card>
+    <card>
+      <text>Concealing a boner.</text>
+    </card>
+    <card>
+      <text>Edible underpants.</text>
+    </card>
+    <card>
+      <text>Viagra.</text>
+    </card>
+    <card>
+      <text>Soup that is too hot.</text>
+    </card>
+    <card>
+      <text>Muhammad (Praise Be Unto Him).</text>
+    </card>
+    <card>
+      <text>Surprise sex!</text>
+    </card>
+    <card>
+      <text>Five-Dollar Footlongsâ„¢.</text>
+    </card>
+    <card>
+      <text>Drinking alone.</text>
+    </card>
+    <card>
+      <text>Dick fingers.</text>
+    </card>
+    <card>
+      <text>Multiple stab wounds.</text>
+    </card>
+    <card>
+      <text>Soiling oneself.</text>
+    </card>
+    <card>
+      <text>Child abuse.</text>
+    </card>
+    <card>
+      <text>Anal beads.</text>
+    </card>
+    <card>
+      <text>Civilian casualties.</text>
+    </card>
+    <card>
+      <text>Pulling out.</text>
+    </card>
+    <card>
+      <text>Robert Downey, Jr.</text>
+    </card>
+    <card>
+      <text>Horse meat.</text>
+    </card>
+    <card>
+      <text>A really cool hat.</text>
+    </card>
+    <card>
+      <text>Kim Jong-il.</text>
+    </card>
+    <card>
+      <text>A stray pube.</text>
+    </card>
+    <card>
+      <text>Jewish fraternities.</text>
+    </card>
+    <card>
+      <text>The token minority.</text>
+    </card>
+    <card>
+      <text>Doin' it in the butt.</text>
+    </card>
+    <card>
+      <text>Feeding Rosie O'Donnell.</text>
+    </card>
+    <card>
+      <text>Teaching a robot to love.</text>
+    </card>
+    <card>
+      <text>A can of whoop-ass.</text>
+    </card>
+    <card>
+      <text>A windmill full of corpses.</text>
+    </card>
+    <card>
+      <text>Count Chocula.</text>
+    </card>
+    <card>
+      <text>Wearing underwear inside-out to avoid doing laundry.</text>
+    </card>
+    <card>
+      <text>A death ray.</text>
+    </card>
+    <card>
+      <text>The glass ceiling.</text>
+    </card>
+    <card>
+      <text>A cooler full of organs.</text>
+    </card>
+    <card>
+      <text>The American Dream.</text>
+    </card>
+    <card>
+      <text>Keg stands.</text>
+    </card>
+    <card>
+      <text>When you fart and a little bit comes out.</text>
+    </card>
+    <card>
+      <text>Take-backsies.</text>
+    </card>
+    <card>
+      <text>Dead babies.</text>
+    </card>
+    <card>
+      <text>Foreskin.</text>
+    </card>
+    <card>
+      <text>Saxophone solos.</text>
+    </card>
+    <card>
+      <text>Italians.</text>
+    </card>
+    <card>
+      <text>A fetus.</text>
+    </card>
+    <card>
+      <text>Firing a rifle into the air while balls deep in a squealing hog.</text>
+    </card>
+    <card>
+      <text>Dick Cheney.</text>
+    </card>
+    <card>
+      <text>Amputees.</text>
+    </card>
+    <card>
+      <text>Eugenics.</text>
+    </card>
+    <card>
+      <text>My relationship status.</text>
+    </card>
+    <card>
+      <text>Christopher Walken.</text>
+    </card>
+    <card>
+      <text>Bees?</text>
+    </card>
+    <card>
+      <text>Harry Potter erotica.</text>
+    </card>
+    <card>
+      <text>College.</text>
+    </card>
+    <card>
+      <text>Getting drunk on mouthwash.</text>
+    </card>
+    <card>
+      <text>Nazis.</text>
+    </card>
+    <card>
+      <text>8 oz. of sweet Mexican black-tar heroin.</text>
+    </card>
+    <card>
+      <text>Stephen Hawking talking dirty.</text>
+    </card>
+    <card>
+      <text>Dead parents.</text>
+    </card>
+    <card>
+      <text>Object permanence.</text>
+    </card>
+    <card>
+      <text>Opposable thumbs.</text>
+    </card>
+    <card>
+      <text>Racially-biased SAT questions.</text>
+    </card>
+    <card>
+      <text>Jibber-jabber.</text>
+    </card>
+    <card>
+      <text>Chainsaws for hands.</text>
+    </card>
+    <card>
+      <text>Nicolas Cage.</text>
+    </card>
+    <card>
+      <text>Child beauty pageants.</text>
+    </card>
+    <card>
+      <text>Explosions.</text>
+    </card>
+    <card>
+      <text>Sniffing glue.</text>
+    </card>
+    <card>
+      <text>Glenn Beck being harried by a swarm of buzzards.</text>
+    </card>
+    <card>
+      <text>Repression.</text>
+    </card>
+    <card>
+      <text>Roofies.</text>
+    </card>
+    <card>
+      <text>My vagina.</text>
+    </card>
+    <card>
+      <text>Assless chaps.</text>
+    </card>
+    <card>
+      <text>A murder most foul.</text>
+    </card>
+    <card>
+      <text>Giving 110 percent.</text>
+    </card>
+    <card>
+      <text>Her Royal Highness, Queen Elizabeth II.</text>
+    </card>
+    <card>
+      <text>The Trail of Tears.</text>
+    </card>
+    <card>
+      <text>Being marginalized.</text>
+    </card>
+    <card>
+      <text>Goblins.</text>
+    </card>
+    <card>
+      <text>Hope.</text>
+    </card>
+    <card>
+      <text>The Rev. Dr. Martin Luther King, Jr.</text>
+    </card>
+    <card>
+      <text>A micropenis.</text>
+    </card>
+    <card>
+      <text>My soul.</text>
+    </card>
+    <card>
+      <text>A hot mess.</text>
+    </card>
+    <card>
+      <text>Vikings.</text>
+    </card>
+    <card>
+      <text>Hot people.</text>
+    </card>
+    <card>
+      <text>Seduction.</text>
+    </card>
+    <card>
+      <text>An Oedipus complex.</text>
+    </card>
+    <card>
+      <text>Geese.</text>
+    </card>
+    <card>
+      <text>Global warming.</text>
+    </card>
+    <card>
+      <text>New Age music.</text>
+    </card>
+    <card>
+      <text>Hot Pockets.</text>
+    </card>
+    <card>
+      <text>Making a pouty face.</text>
+    </card>
+    <card>
+      <text>Vehicular manslaughter.</text>
+    </card>
+    <card>
+      <text>Women's suffrage.</text>
+    </card>
+    <card>
+      <text>A defective condom.</text>
+    </card>
+    <card>
+      <text>Judge Judy.</text>
+    </card>
+    <card>
+      <text>African children.</text>
+    </card>
+    <card>
+      <text>The Virginia Tech Massacre.</text>
+    </card>
+    <card>
+      <text>Barack Obama.</text>
+    </card>
+    <card>
+      <text>Asians who aren't good at math.</text>
+    </card>
+    <card>
+      <text>Elderly Japanese men.</text>
+    </card>
+    <card>
+      <text>Exchanging pleasantries.</text>
+    </card>
+    <card>
+      <text>Heteronormativity.</text>
+    </card>
+    <card>
+      <text>Parting the Red Sea.</text>
+    </card>
+    <card>
+      <text>Arnold Schwarzenegger.</text>
+    </card>
+    <card>
+      <text>Road head.</text>
+    </card>
+    <card>
+      <text>Spectacular abs.</text>
+    </card>
+    <card>
+      <text>Figgy pudding.</text>
+    </card>
+    <card>
+      <text>A mopey zoo lion.</text>
+    </card>
+    <card>
+      <text>A bag of magic beans.</text>
+    </card>
+    <card>
+      <text>Poor life choices.</text>
+    </card>
+    <card>
+      <text>My sex life.</text>
+    </card>
+    <card>
+      <text>Auschwitz.</text>
+    </card>
+    <card>
+      <text>A snapping turtle biting the tip of your penis.</text>
+    </card>
+    <card>
+      <text>A thermonuclear detonation.</text>
+    </card>
+    <card>
+      <text>The clitoris.</text>
+    </card>
+    <card>
+      <text>The Big Bang.</text>
+    </card>
+    <card>
+      <text>Land mines.</text>
+    </card>
+    <card>
+      <text>Friends who eat all the snacks.</text>
+    </card>
+    <card>
+      <text>Goats eating cans.</text>
+    </card>
+    <card>
+      <text>The Dance of the Sugar Plum Fairy.</text>
+    </card>
+    <card>
+      <text>Jerking off into a pool of children's tears.</text>
+    </card>
+    <card>
+      <text>Man meat.</text>
+    </card>
+    <card>
+      <text>Me time.</text>
+    </card>
+    <card>
+      <text>The Underground Railroad.</text>
+    </card>
+    <card>
+      <text>Poorly-timed Holocaust jokes.</text>
+    </card>
+    <card>
+      <text>A sea of troubles.</text>
+    </card>
+    <card>
+      <text>Lumberjack fantasies.</text>
+    </card>
+    <card>
+      <text>Morgan Freeman's voice.</text>
+    </card>
+    <card>
+      <text>Women in yogurt commercials.</text>
+    </card>
+    <card>
+      <text>Natural male enhancement.</text>
+    </card>
+    <card>
+      <text>Being a motherfucking sorcerer.</text>
+    </card>
+    <card>
+      <text>Genital piercings.</text>
+    </card>
+    <card>
+      <text>Passable transvestites.</text>
+    </card>
+    <card>
+      <text>Sexy pillow fights.</text>
+    </card>
+    <card>
+      <text>Balls.</text>
+    </card>
+    <card>
+      <text>Grandma.</text>
+    </card>
+    <card>
+      <text>Friction.</text>
+    </card>
+    <card>
+      <text>Party poopers.</text>
+    </card>
+    <card>
+      <text>Farting and walking away.</text>
+    </card>
+    <card>
+      <text>Being a dick to children.</text>
+    </card>
+    <card>
+      <text>Booby-trapping the house to foil burglars.</text>
+    </card>
+    <card>
+      <text>The Tempur-Pedic Swedish Sleep Systemâ„¢.</text>
+    </card>
+    <card>
+      <text>Dying.</text>
+    </card>
+    <card>
+      <text>Hurricane Katrina.</text>
+    </card>
+    <card>
+      <text>The gays.</text>
+    </card>
+    <card>
+      <text>The folly of man.</text>
+    </card>
+    <card>
+      <text>Men.</text>
+    </card>
+    <card>
+      <text>The Amish.</text>
+    </card>
+    <card>
+      <text>Pterodactyl eggs.</text>
+    </card>
+    <card>
+      <text>Team-building exercises.</text>
+    </card>
+    <card>
+      <text>A brain tumor.</text>
+    </card>
+    <card>
+      <text>Cards Against Humanity.</text>
+    </card>
+    <card>
+      <text>Fear itself.</text>
+    </card>
+    <card>
+      <text>Lady Gaga.</text>
+    </card>
+    <card>
+      <text>The milk man.</text>
+    </card>
+    <card>
+      <text>A foul mouth.</text>
+    </card>
+    <card>
+      <text>A big black dick.</text>
+    </card>
+    <card>
+      <text>A beached whale.</text>
+    </card>
+    <card>
+      <text>A bloody pacifier.</text>
+    </card>
+    <card>
+      <text>A crappy little hand.</text>
+    </card>
+    <card>
+      <text>A low standard of living.</text>
+    </card>
+    <card>
+      <text>A nuanced critique.</text>
+    </card>
+    <card>
+      <text>Panty raids.</text>
+    </card>
+    <card>
+      <text>A passionate Latino lover.</text>
+    </card>
+    <card>
+      <text>A rival dojo.</text>
+    </card>
+    <card>
+      <text>A web of lies.</text>
+    </card>
+    <card>
+      <text>A woman scorned.</text>
+    </card>
+    <card>
+      <text>Clams.</text>
+    </card>
+    <card>
+      <text>Apologizing.</text>
+    </card>
+    <card>
+      <text>Appreciative snapping.</text>
+    </card>
+    <card>
+      <text>Neil Patrick Harris.</text>
+    </card>
+    <card>
+      <text>Beating your wives.</text>
+    </card>
+    <card>
+      <text>Being a dinosaur.</text>
+    </card>
+    <card>
+      <text>Shaft.</text>
+    </card>
+    <card>
+      <text>Bosnian chicken farmers.</text>
+    </card>
+    <card>
+      <text>Nubile slave boys.</text>
+    </card>
+    <card>
+      <text>Carnies.</text>
+    </card>
+    <card>
+      <text>Coughing into a vagina.</text>
+    </card>
+    <card>
+      <text>Suicidal thoughts.</text>
+    </card>
+    <card>
+      <text>Dancing with a broom.</text>
+    </card>
+    <card>
+      <text>Deflowering the princess.</text>
+    </card>
+    <card>
+      <text>Dorito breath.</text>
+    </card>
+    <card>
+      <text>Eating an albino.</text>
+    </card>
+    <card>
+      <text>Enormous Scandinavian women.</text>
+    </card>
+    <card>
+      <text>Fabricating statistics.</text>
+    </card>
+    <card>
+      <text>Finding a skeleton.</text>
+    </card>
+    <card>
+      <text>Gandalf.</text>
+    </card>
+    <card>
+      <text>Genetically engineered super-soldiers.</text>
+    </card>
+    <card>
+      <text>George Clooney's musk.</text>
+    </card>
+    <card>
+      <text>Getting abducted by Peter Pan.</text>
+    </card>
+    <card>
+      <text>Getting in her pants, politely.</text>
+    </card>
+    <card>
+      <text>Gladiatorial combat.</text>
+    </card>
+    <card>
+      <text>Good grammar.</text>
+    </card>
+    <card>
+      <text>Hipsters.</text>
+    </card>
+    <card>
+      <text>Historical revisionism.</text>
+    </card>
+    <card>
+      <text>Insatiable bloodlust.</text>
+    </card>
+    <card>
+      <text>Jafar.</text>
+    </card>
+    <card>
+      <text>Jean-Claude Van Damme.</text>
+    </card>
+    <card>
+      <text>Just the tip.</text>
+    </card>
+    <card>
+      <text>Mad hacky-sack skills.</text>
+    </card>
+    <card>
+      <text>Leveling up.</text>
+    </card>
+    <card>
+      <text>Literally eating shit.</text>
+    </card>
+    <card>
+      <text>Making the penises kiss.</text>
+    </card>
+    <card>
+      <text>Media coverage.</text>
+    </card>
+    <card>
+      <text>Medieval Times Dinner and Tournament.</text>
+    </card>
+    <card>
+      <text>Moral ambiguity.</text>
+    </card>
+    <card>
+      <text>My machete.</text>
+    </card>
+    <card>
+      <text>One thousand Slim Jims.</text>
+    </card>
+    <card>
+      <text>Ominous background music.</text>
+    </card>
+    <card>
+      <text>Overpowering your father.</text>
+    </card>
+    <card>
+      <text>Pistol-whipping a hostage.</text>
+    </card>
+    <card>
+      <text>Quiche.</text>
+    </card>
+    <card>
+      <text>Quivering jowls.</text>
+    </card>
+    <card>
+      <text>Revenge fucking.</text>
+    </card>
+    <card>
+      <text>Ripping into a man's chest and pulling out his still-beating heart.</text>
+    </card>
+    <card>
+      <text>Ryan Gosling riding in on a white horse.</text>
+    </card>
+    <card>
+      <text>Santa Claus.</text>
+    </card>
+    <card>
+      <text>Scrotum tickling.</text>
+    </card>
+    <card>
+      <text>Sexual humiliation.</text>
+    </card>
+    <card>
+      <text>Sexy Siamese twins.</text>
+    </card>
+    <card>
+      <text>Slow motion.</text>
+    </card>
+    <card>
+      <text>Space muffins.</text>
+    </card>
+    <card>
+      <text>Statistically validated stereotypes.</text>
+    </card>
+    <card>
+      <text>Sudden Poop Explosion Disease.</text>
+    </card>
+    <card>
+      <text>The boners of the elderly.</text>
+    </card>
+    <card>
+      <text>The economy.</text>
+    </card>
+    <card>
+      <text>The Fanta girls.</text>
+    </card>
+    <card>
+      <text>The Gulags.</text>
+    </card>
+    <card>
+      <text>The harsh light of day.</text>
+    </card>
+    <card>
+      <text>The hiccups.</text>
+    </card>
+    <card>
+      <text>The shambling corpse of Larry King.</text>
+    </card>
+    <card>
+      <text>The four arms of Vishnu.</text>
+    </card>
+    <card>
+      <text>Being a busy adult with many important things to do.</text>
+    </card>
+    <card>
+      <text>Tripping balls.</text>
+    </card>
+    <card>
+      <text>Words, words, words.</text>
+    </card>
+    <card>
+      <text>Zeus's sexual appetites.</text>
+    </card>
 </cards>

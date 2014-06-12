@@ -78,6 +78,8 @@ public class Client extends JFrame
 	private BlackCard czarCard;
 	
 	public String buttonPressed;
+	
+	private ArrayList playedCards = new ArrayList();
 
 	/**
 	 * Launch the application.
@@ -206,13 +208,13 @@ public class Client extends JFrame
 		JPanel card = new JPanel();
 		card.setLayout(new BorderLayout());
 		JButton button = new JButton(whiteCard.toString());
-		button.addActionListener(new ActionListener()
-		{
-			public void actionPerformed(ActionEvent e)
-			{
-				System.out.println(buttonPressed = e.getActionCommand());
-			}
-		});
+//		button.addActionListener(new ActionListener()
+//		{
+//			public void actionPerformed(ActionEvent e)
+//			{
+//				System.out.println(buttonPressed = e.getActionCommand());
+//			}
+//		});
 		card.add(button);
 		buttons.add(button);
 		return card;
@@ -230,7 +232,7 @@ public class Client extends JFrame
 		{
 			public void actionPerformed(ActionEvent e)
 			{
-				System.out.println(buttonPressed = String.valueOf(x2*gridLayout2.getColumns()+y2));
+				System.out.println(buttonPressed = String.valueOf(x2*(gridLayout2.getRows())+y2));
 			}
 		});
 		card.add(button);
@@ -253,7 +255,7 @@ public class Client extends JFrame
 		panel.setLayout(gridLayout);
 		for(int x = 0; x < gridLayout.getColumns(); x++)
 			for(int y = 0; y < gridLayout.getRows(); y++)
-				panel.add(createWhiteCard(new WhiteCard("White Card " + (x*gridLayout.getColumns()+y)), gridLayout, x, y));
+				panel.add(createWhiteCard(new WhiteCard("White Card " + (x*(gridLayout.getRows())+y)), gridLayout, x, y));
 		return panel;
 	}
 	
@@ -285,12 +287,13 @@ public class Client extends JFrame
 	
 	public void chooseCard()
 	{
-		SimpleDateFormat sdf = new SimpleDateFormat("HH:mm:ss");	
-		Calendar calendar = new GregorianCalendar(2013,0,31);
 		System.out.println("Listening for mouse press...");
 		while(buttonPressed == null)
-			System.out.println(sdf.format(calendar.getTime()) + " " + buttonPressed);
+		{
+			System.out.println(buttonPressed);
+		}
 		printWriter.println(buttonPressed);
+		buttonPressed = null;
 	}
 
 	public JFrame getInstance()
@@ -351,6 +354,37 @@ public class Client extends JFrame
 							System.out.println(lineRead);
 							JOptionPane.showMessageDialog(getInstance(), lineRead);
 							chooseCard();
+							break;
+						case "White Card: ":
+							System.out.println(lineRead);
+							lineRead = lineRead.substring(lineRead.indexOf("White Card: "));
+							System.out.println(lineRead);
+							int num = Integer.parseInt(lineRead.substring(0, 1));
+							System.out.println(lineRead);
+							((ArrayList)playedCards.get(num)).add(new WhiteCard(lineRead.substring(lineRead.indexOf(" - "))));
+							System.out.println(lineRead);
+							break;
+						case "Select a white card.":
+							System.out.println(lineRead);
+							
+							for(int x = 0; x < playedCards.size(); x++)
+								for(int y = 0; x < ((ArrayList)playedCards.get(x)).size(); x++)
+									System.out.println((String)((ArrayList)playedCards.get(x)).get(y));
+							
+							Object[] object = new Object[playedCards.size()];
+							for(int x = 0; x < playedCards.size(); x++)
+							{
+								for(int y = 0; y < ((ArrayList)playedCards.get(x)).size(); y++)
+								{
+									object[x] += (String)((ArrayList)playedCards.get(x)).get(y).toString();
+								}
+								if(x == object.length-2)
+									object[x] += ", ";
+							}
+							JOptionPane.showInputDialog(null, "Select a card", "Select Card", JOptionPane.QUESTION_MESSAGE, null, object, object[0]);
+							break;
+						case "Reset":
+							playedCards = new ArrayList();
 							break;
 						default:
 							System.out.println(lineRead);

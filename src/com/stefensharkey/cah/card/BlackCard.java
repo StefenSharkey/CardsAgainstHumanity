@@ -7,7 +7,7 @@ public class BlackCard
 	
 	public BlackCard(String text)
 	{
-		if(!text.endsWith(" _"))
+		if(text.endsWith("?"))
 			text = text + " _";
 		this.text = text;
 		for(char s : text.toCharArray())
